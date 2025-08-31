@@ -47,5 +47,5 @@ jobs:
         with:
           artifacts: "dist/Scratch-Arduino-Link-*.*, index.json"
           tag: ${{ steps.tagName.outputs.tag }}
-          token: ${{ secrets.TOKEN_GITHUB_SECRET }}
+          token: ${{ secrets.SERVER_USER }}
           allowUpdates: true
